@@ -26,6 +26,7 @@ const Topping = ({ topping, additionalTopping, setAdditionalTopping }) => {
   };
   useEffect(() => {
     handleTopping();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isChecked]);
   return (
     <div

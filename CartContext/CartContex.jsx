@@ -34,6 +34,7 @@ const CardProvider = ({ children }) => {
       crust,
       amount: 1,
     };
+    setCart([...cart, newItem]);
     console.log(newItem);
   };
   return (

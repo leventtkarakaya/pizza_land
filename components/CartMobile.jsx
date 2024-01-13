@@ -17,12 +17,17 @@ const CartMobile = () => {
       {/* top */}
       <CartTop />
       {/* cart items */}
-      <div>
-        {cart.length > 0 &&
-          cart.map((pizza, index) => {
-            if (!pizza) return null;
-            return <CartItem key={index} />;
-          })}
+      <div
+        className={`px-4 flex flex-col gap-y-4 py-2 mr-4 mt-8 h-[60vh] overflow-y-scroll scrollbar-thin scrollbar-thumb-secondary ${
+          cart.length >= 3
+            ? "scrollbar-track-black/10 "
+            : "scrollbar-track-transparent"
+        }`}
+      >
+        {cart.map((pizza, index) => {
+          if (!pizza) return null;
+          return <CartItem pizza={pizza} key={index} />;
+        })}
       </div>
       {/* cart bottom */}
       <CartBottom />

@@ -1,9 +1,13 @@
+// next google font
 import { Bangers, Quicksand, Roboto_Condensed } from "next/font/google";
+// global css
 import "./globals.css";
+// Components
 import Nav from "@/components/Nav";
 import CartMobileIcon from "@/components/CartMobileIcon";
 import CardProvider from "@/CartContext/CartContex";
 import CartMobile from "@/components/CartMobile";
+import CartDesktop from "@/components/CartDesktop";
 
 const bangers = Bangers({
   subsets: ["latin"],
@@ -37,6 +41,7 @@ export default function RootLayout({ children }) {
           <CartMobileIcon />
           <CartMobile />
           {children}
+          <CartDesktop />
         </body>
       </html>
     </CardProvider>

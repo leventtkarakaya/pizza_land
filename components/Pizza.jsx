@@ -55,7 +55,7 @@ const Pizza = ({ pizza }) => {
         {/* btn => hidden (sm) - visible (lg) */}
         <button
           onClick={openModal}
-          className="hidden lg:flex gradient text-white rounded-lg btn-sm font-semibold text-sm"
+          className="hidden-btn lg:flex gradient text-white rounded-lg btn-sm font-semibold text-sm"
         >
           Choose
         </button>
