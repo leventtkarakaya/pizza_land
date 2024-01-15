@@ -31,7 +31,13 @@ const PizzaDetails = ({ pizza, modal, setModal }) => {
       : size === "large"
       ? setPrice(parseFloat(pizza.priceLg + additionalToppingPrice).toFixed(2))
       : null;
-  });
+  }, [
+    size,
+    pizza.priceSm,
+    pizza.priceMd,
+    pizza.priceLg,
+    additionalToppingPrice,
+  ]);
 
   // set additional topping price
   useEffect(() => {
@@ -106,7 +112,7 @@ const PizzaDetails = ({ pizza, modal, setModal }) => {
         {/* add to cart btn */}
         <div className="h-full flex items-center px-2 lg:items-end">
           <button
-            onClick={() =>
+            onClick={() => {
               addToCart(
                 pizza.id,
                 pizza.image,
@@ -115,8 +121,9 @@ const PizzaDetails = ({ pizza, modal, setModal }) => {
                 additionalTopping,
                 size,
                 crust
-              )
-            }
+              ),
+                setModal(false);
+            }}
             className="btn btn-lg gradient w-full flex justify-center gap-x-2"
           >
             <div> Add to cart for</div>
