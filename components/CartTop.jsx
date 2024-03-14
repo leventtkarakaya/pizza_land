@@ -7,12 +7,12 @@ import CartBottom from "./CartBottom";
 const CartTop = () => {
   const { setIsOpen, isOpen, itemAmount } = useContext(CartContext);
   return (
-    <div className="w-full h-20 border-b flex items-center justify-between px-10">
+    <div className="flex items-center justify-between w-full h-20 px-10 border-b">
       {/* shopping bag text */}
       <div>Shopping Bag({itemAmount})</div>
       {/* close icon */}
       <div onClick={() => setIsOpen(!isOpen)} className="cursor-pointer group">
-        <IoCloseOutline className="text-3xl group-hover:scale-110 duration-300 transition-all" />
+        <IoCloseOutline className="text-3xl transition-all duration-300 group-hover:scale-110" />
       </div>
     </div>
   );

@@ -15,11 +15,11 @@ const Banner = () => {
           globalFactorX={0.2}
           globalFactorY={0.2}
           resetOnLeave
-          className="w-full flex flex-col lg:flex-row justify-between items-center"
+          className="flex flex-col items-center justify-between w-full lg:flex-row"
         >
           {/* text */}
           <MouseParallaxChild factorX={0.2} factorY={0.2}>
-            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6 text-white">
+            <div className="flex flex-col items-center flex-1 px-6 text-center text-white lg:flex-row lg:text-left">
               <div>
                 <div className="font-bangers text-[32px] text-white uppercase tracking-[0.03em]">
                   Best pizza in town
@@ -34,14 +34,13 @@ const Banner = () => {
           {/* image */}
           <MouseParallaxChild factorX={0.2} factorY={0.2} className="relative">
             {/* pizza  image */}
-            <div className="flex flex-col lg:flex-row items-center text-center lg:text-left flex-1 px-6">
-              <div className="flex flex-1 justify-end max-w-sm lg:max-w-max">
+            <div className="flex flex-col items-center flex-1 px-6 text-center lg:flex-row lg:text-left">
+              <div className="flex justify-end flex-1 max-w-sm lg:max-w-max">
                 <Image
                   src={"/pizza-banner.png"}
                   width={550}
                   height={558}
                   alt="pizza"
-                  priority={1}
                 />
               </div>
             </div>
@@ -49,14 +48,13 @@ const Banner = () => {
             <MouseParallaxChild
               factorX={0.2}
               factorY={0.3}
-              className="absolute top-6 left-4 hidden lg:flex"
+              className="absolute hidden top-6 left-4 lg:flex"
             >
               <Image
                 src={"/chilli-1.png"}
                 width={160}
                 height={84}
                 alt="chilli"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>
@@ -64,14 +62,13 @@ const Banner = () => {
             <MouseParallaxChild
               factorX={0.2}
               factorY={0.3}
-              className="absolute top-16 -left-4 hidden lg:flex"
+              className="absolute hidden top-16 -left-4 lg:flex"
             >
               <Image
                 src={"/chilli-2.png"}
                 width={130}
                 height={84}
                 alt="chilli"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>
@@ -79,14 +76,13 @@ const Banner = () => {
             <MouseParallaxChild
               factorX={0.4}
               factorY={0.4}
-              className="absolute top-80 -left-24 hidden lg:flex"
+              className="absolute hidden top-80 -left-24 lg:flex"
             >
               <Image
                 src={"/garlic-1.png"}
                 width={84}
                 height={72}
                 alt="garlic"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>
@@ -101,7 +97,6 @@ const Banner = () => {
                 width={100}
                 height={72}
                 alt="garlic"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>
@@ -109,14 +104,13 @@ const Banner = () => {
             <MouseParallaxChild
               factorX={0.4}
               factorY={0.4}
-              className="absolute top-96 -left-20 hidden lg:flex"
+              className="absolute hidden top-96 -left-20 lg:flex"
             >
               <Image
                 src={"/garlic-3.png"}
                 width={100}
                 height={72}
                 alt="garlic"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>
@@ -124,14 +118,13 @@ const Banner = () => {
             <MouseParallaxChild
               factorX={0.3}
               factorY={0.3}
-              className="absolute top-96 left-12   hidden lg:flex"
+              className="absolute hidden top-96 left-12 lg:flex"
             >
               <Image
                 src={"/leaves.png"}
                 width={180}
                 height={72}
                 alt="garlic"
-                priority={1}
                 quality={100}
               />
             </MouseParallaxChild>

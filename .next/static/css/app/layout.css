@@ -615,6 +615,9 @@ video {
 .visible {
   visibility: visible;
 }
+.static {
+  position: static;
+}
 .fixed {
   position: fixed;
 }
@@ -808,6 +811,21 @@ video {
 .h-full {
   height: 100%;
 }
+.h-\[20rem\] {
+  height: 20rem;
+}
+.h-\[5rem\] {
+  height: 5rem;
+}
+.h-\[10rem\] {
+  height: 10rem;
+}
+.h-\[100px\] {
+  height: 100px;
+}
+.h-\[45vh\] {
+  height: 45vh;
+}
 .min-h-\[60px\] {
   min-height: 60px;
 }
@@ -988,6 +1006,10 @@ video {
 }
 .border-transparent {
   border-color: transparent;
+}
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(35 23 20 / var(--tw-bg-opacity));
 }
 .bg-primary {
   --tw-bg-opacity: 1;
@@ -1223,9 +1245,6 @@ video {
 .duration-300 {
   transition-duration: 300ms;
 }
-.scrollbar-thin {
-  scrollbar-color: var(--scrollbar-thumb, initial) var(--scrollbar-track, initial);
-}
 .scrollbar-thin::-webkit-scrollbar-track {
   background-color: var(--scrollbar-track);
   border-radius: var(--scrollbar-track-radius);
@@ -1258,6 +1277,7 @@ video {
 }
 .scrollbar-thin {
   scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-thumb, initial) var(--scrollbar-track, initial);
 }
 .scrollbar-thin::-webkit-scrollbar {
   display: block;
@@ -1533,7 +1553,7 @@ video {
   \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* vietnamese */
 @font-face {
-  font-family: '__Bangers_c0e9eb';
+  font-family: '__Bangers_7f45d3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1542,24 +1562,24 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Bangers_c0e9eb';
+  font-family: '__Bangers_7f45d3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/a6e189517e59054d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Bangers_c0e9eb';
+  font-family: '__Bangers_7f45d3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/2c2fc5ac4fb02646-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Bangers_Fallback_c0e9eb';src: local("Arial");ascent-override: 106.20%;descent-override: 21.77%;line-gap-override: 0.00%;size-adjust: 83.14%
-}.__className_c0e9eb {font-family: '__Bangers_c0e9eb', '__Bangers_Fallback_c0e9eb';font-weight: 400;font-style: normal
-}.__variable_c0e9eb {--font-bangers: '__Bangers_c0e9eb', '__Bangers_Fallback_c0e9eb'
+}@font-face {font-family: '__Bangers_Fallback_7f45d3';src: local("Arial");ascent-override: 106.20%;descent-override: 21.77%;line-gap-override: 0.00%;size-adjust: 83.14%
+}.__className_7f45d3 {font-family: '__Bangers_7f45d3', '__Bangers_Fallback_7f45d3';font-weight: 400;font-style: normal
+}.__variable_7f45d3 {--font-bangers: '__Bangers_7f45d3', '__Bangers_Fallback_7f45d3'
 }
 
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1567,7 +1587,7 @@ video {
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* vietnamese */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1576,16 +1596,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url(/_next/static/media/a1b64b733866887d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1594,7 +1614,7 @@ video {
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1603,16 +1623,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/a1b64b733866887d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1621,7 +1641,7 @@ video {
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -1630,16 +1650,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(/_next/static/media/a1b64b733866887d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -1648,7 +1668,7 @@ video {
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -1657,16 +1677,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(/_next/static/media/a1b64b733866887d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -1675,7 +1695,7 @@ video {
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -1684,24 +1704,24 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/a1b64b733866887d-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Quicksand_6e34fe';
+  font-family: '__Quicksand_17bebb';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/34a9823ac715e2c2-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Quicksand_Fallback_6e34fe';src: local("Arial");ascent-override: 94.93%;descent-override: 23.73%;line-gap-override: 0.00%;size-adjust: 105.35%
-}.__className_6e34fe {font-family: '__Quicksand_6e34fe', '__Quicksand_Fallback_6e34fe';font-style: normal
-}.__variable_6e34fe {--font-quicksand: '__Quicksand_6e34fe', '__Quicksand_Fallback_6e34fe'
+}@font-face {font-family: '__Quicksand_Fallback_17bebb';src: local("Arial");ascent-override: 94.93%;descent-override: 23.73%;line-gap-override: 0.00%;size-adjust: 105.35%
+}.__className_17bebb {font-family: '__Quicksand_17bebb', '__Quicksand_Fallback_17bebb';font-style: normal
+}.__variable_17bebb {--font-quicksand: '__Quicksand_17bebb', '__Quicksand_Fallback_17bebb'
 }
 
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -1709,7 +1729,7 @@ video {
   \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -1718,7 +1738,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -1727,7 +1747,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -1736,16 +1756,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -1754,16 +1774,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 100;
   font-display: swap;
@@ -1772,7 +1792,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
@@ -1781,7 +1801,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
@@ -1790,7 +1810,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
@@ -1799,16 +1819,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
@@ -1817,16 +1837,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 200;
   font-display: swap;
@@ -1835,7 +1855,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1844,7 +1864,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1853,7 +1873,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1862,16 +1882,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1880,16 +1900,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
@@ -1898,7 +1918,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1907,7 +1927,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1916,7 +1936,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1925,16 +1945,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1943,16 +1963,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -1961,7 +1981,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -1970,7 +1990,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -1979,7 +1999,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -1988,16 +2008,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -2006,16 +2026,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
@@ -2024,7 +2044,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -2033,7 +2053,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -2042,7 +2062,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -2051,16 +2071,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -2069,16 +2089,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
@@ -2087,7 +2107,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -2096,7 +2116,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -2105,7 +2125,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -2114,16 +2134,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -2132,16 +2152,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
@@ -2150,7 +2170,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -2159,7 +2179,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -2168,7 +2188,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -2177,16 +2197,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -2195,16 +2215,16 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
@@ -2213,7 +2233,7 @@ video {
 }
 /* cyrillic-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -2222,7 +2242,7 @@ video {
 }
 /* cyrillic */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -2231,7 +2251,7 @@ video {
 }
 /* greek-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -2240,16 +2260,16 @@ video {
 }
 /* greek */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url(/_next/static/media/9e533aab6904561e-s.woff2) format('woff2');
-  unicode-range: U+0370-03FF;
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
 }
 /* vietnamese */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -2258,23 +2278,23 @@ video {
 }
 /* latin-ext */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url(/_next/static/media/6e937932b31103aa-s.woff2) format('woff2');
-  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 /* latin */
 @font-face {
-  font-family: '__Roboto_Condensed_a0f4e6';
+  font-family: '__Roboto_Condensed_7118c3';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
   src: url(/_next/static/media/52db2a4aafb407ce-s.p.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}@font-face {font-family: '__Roboto_Condensed_Fallback_a0f4e6';src: local("Arial");ascent-override: 104.18%;descent-override: 27.42%;line-gap-override: 0.00%;size-adjust: 89.05%
-}.__className_a0f4e6 {font-family: '__Roboto_Condensed_a0f4e6', '__Roboto_Condensed_Fallback_a0f4e6';font-style: normal
-}.__variable_a0f4e6 {--font-robotoCondensed: '__Roboto_Condensed_a0f4e6', '__Roboto_Condensed_Fallback_a0f4e6'
+}@font-face {font-family: '__Roboto_Condensed_Fallback_7118c3';src: local("Arial");ascent-override: 104.18%;descent-override: 27.42%;line-gap-override: 0.00%;size-adjust: 89.05%
+}.__className_7118c3 {font-family: '__Roboto_Condensed_7118c3', '__Roboto_Condensed_Fallback_7118c3';font-style: normal
+}.__variable_7118c3 {--font-robotoCondensed: '__Roboto_Condensed_7118c3', '__Roboto_Condensed_Fallback_7118c3'
 }
 
